@@ -3,20 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AdventureGame : MonoBehaviour
-{
-    // Text Component available in inspector
-    [SerializeField] Text txtComponent;
+public class AdventureGame : MonoBehaviour {
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        txtComponent.text = ("I am a string added programmatically");
-    }
+    [SerializeField] Text textComponent;
+    [SerializeField] State startingState;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    State state;
+
+	// Use this for initialization
+	void Start () {
+        state = startingState;
+        textComponent.text = state.strGetStateStory();
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
 }

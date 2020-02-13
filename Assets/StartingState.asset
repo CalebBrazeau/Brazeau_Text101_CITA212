@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a6baa1c07a85e43877e5b8e6b41426, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  strStoryText: 'You wake up with a bag over your head, the bag is ripped off and
+    as your vision clears you see you''re in an empty room with a person standing
+    infront of you.
+
+    He throws a document onto your lap with "Confidential"
+    stamped in big red letters across the front.
+
+    You slowly reach up and grab
+    the document.
+
+    Before opening you glance up at the scary man staring at
+    you, he nods with approval.
+
+    Opening the document you see pictures of a
+    moon base supposedly located on the dark side of the moon.
+
+    The man starts
+    talking in a high pitched girly voice, he says " We suspect that base was recently
+    attacked by an unknown assailant. We need someone to go down and assess the situation
+    and report back on what happened."
+
+    
+
+    Options:
+
+    1. Accept
+
+    2.
+    Decline'
