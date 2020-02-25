@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a6baa1c07a85e43877e5b8e6b41426, type: 3}
+  m_Name: A9 The Cat
+  m_EditorClassIdentifier: 
+  storyText: 'You enter the room, gun drawn shaking in your suit, maybe a little
+    lemonade leaked out, anyways, you see in the corner a small cat monching on human
+    remains.
+
+
+    1. Shoot the cat
+
+    2. Bring it back home'
+  nextStates:
+  - {fileID: 11400000, guid: d3ba6327dd2fe70498644932e8813c8e, type: 2}
+  - {fileID: 11400000, guid: 19e3c3ac1a18ce447837ba86d7098948, type: 2}

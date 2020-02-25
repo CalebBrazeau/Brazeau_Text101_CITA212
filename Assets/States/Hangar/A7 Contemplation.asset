@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a6baa1c07a85e43877e5b8e6b41426, type: 3}
+  m_Name: A7 Contemplation
+  m_EditorClassIdentifier: 
+  storyText: 'You pull out your gold plated desert eagle and shoot him in the head
+    6 times before reloading.
+
+
+    1. Rethink your awful decision
+
+    2. Move
+    to the next room'
+  nextStates:
+  - {fileID: 11400000, guid: e59afd9041c83464186896bca7308b91, type: 2}
+  - {fileID: 11400000, guid: 9d78cb3451f7994489909652d862072f, type: 2}
