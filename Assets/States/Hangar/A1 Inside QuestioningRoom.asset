@@ -12,13 +12,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54a6baa1c07a85e43877e5b8e6b41426, type: 3}
   m_Name: A1 Inside QuestioningRoom
   m_EditorClassIdentifier: 
-  storyText: 'You were brought in Ill add this stuff later
+  storyText: 'You wake up with a bag over your head, the bag is ripped off and as
+    your vision clears you see you''re in an empty room with a person standing infront
+    of you.
 
+    He throws a document onto your lap with "Confidential" stamped
+    in big red letters across the front.
 
-    1. Accept
+    You slowly reach up and grab the document.
 
-    2.
-    Decline'
+    Before
+    opening you glance up at the scary man staring at you, he nods with approval.
+
+    Opening
+    the document you see pictures of a moon base supposedly located on the dark side
+    of the moon.
+
+    The man starts talking in a high pitched girly voice, " We
+    suspect that base was recently attacked by an unknown assailant. We need someone
+    to go down and assess the situation and report back on what happened."
+
+    1.
+    Accept
+
+    2. Decline'
   nextStates:
   - {fileID: 11400000, guid: 1aba06ad0bc67494e97ba19e7a69b96f, type: 2}
   - {fileID: 11400000, guid: 78c6b909bcccd864e906148ecf361e54, type: 2}
